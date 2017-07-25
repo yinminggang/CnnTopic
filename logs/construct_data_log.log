@@ -1,0 +1,5 @@
+2017-07-13 17:32:15,155: DEBUG: Building prefix dict from the default dictionary ...
+2017-07-13 17:32:16,024: DEBUG: Dumping model to file cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2017-07-13 17:32:16,136: DEBUG: Loading model cost 0.980 seconds.
+2017-07-13 17:32:16,137: DEBUG: Prefix dict has been built succesfully.
+2017-07-13 17:32:16,265: INFO: E:/DLTopicWorkspace/RnnTopic/initTogggpics/201606290100.xml

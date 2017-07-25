@@ -1,0 +1,891 @@
+2017-07-15 10:57:22,578: INFO: 
+Parameters:
+2017-07-15 10:57:22,578: INFO: ALLOW_SOFT_PLACEMENT=True
+2017-07-15 10:57:22,578: INFO: BATCH_SIZE=64
+2017-07-15 10:57:22,579: INFO: CHECKPOINT_DIR=runs/1500083770/checkpoints/
+2017-07-15 10:57:22,579: INFO: EVAL_TRAIN=False
+2017-07-15 10:57:22,579: INFO: LOG_DEVICE_PLACEMENT=False
+2017-07-15 10:57:22,579: INFO: NEGATIVE_DATA_FILE=sources/train/negative_text.txt
+2017-07-15 10:57:22,579: INFO: POSITIVE_DATA_FILE=sources/train/hottopic_text.txt
+2017-07-15 10:57:22,579: INFO: 
+2017-07-15 10:57:22,677: INFO: 
+Evaluating...
+
+2017-07-15 10:59:40,012: INFO: 
+Parameters:
+2017-07-15 10:59:40,012: INFO: ALLOW_SOFT_PLACEMENT=True
+2017-07-15 10:59:40,012: INFO: BATCH_SIZE=64
+2017-07-15 10:59:40,012: INFO: CHECKPOINT_DIR=
+2017-07-15 10:59:40,012: INFO: EVAL_TRAIN=False
+2017-07-15 10:59:40,012: INFO: LOG_DEVICE_PLACEMENT=False
+2017-07-15 10:59:40,012: INFO: NEGATIVE_DATA_FILE=sources/train/negative_text.txt
+2017-07-15 10:59:40,012: INFO: POSITIVE_DATA_FILE=sources/train/hottopic_text.txt
+2017-07-15 10:59:40,012: INFO: 
+2017-07-15 11:01:38,260: INFO: 
+Parameters:
+2017-07-15 11:01:38,260: INFO: ALLOW_SOFT_PLACEMENT=True
+2017-07-15 11:01:38,260: INFO: BATCH_SIZE=64
+2017-07-15 11:01:38,260: INFO: CHECKPOINT_DIR=runs/1500083770/checkpoints/
+2017-07-15 11:01:38,260: INFO: EVAL_TRAIN=False
+2017-07-15 11:01:38,260: INFO: LOG_DEVICE_PLACEMENT=False
+2017-07-15 11:01:38,260: INFO: NEGATIVE_DATA_FILE=sources/train/negative_text.txt
+2017-07-15 11:01:38,260: INFO: POSITIVE_DATA_FILE=sources/train/hottopic_text.txt
+2017-07-15 11:01:38,260: INFO: 
+2017-07-15 11:01:38,305: INFO: 
+Evaluating...
+
+2017-07-15 14:21:28,205: INFO: 
+Parameters:
+2017-07-15 14:21:28,205: INFO: ALLOW_SOFT_PLACEMENT=True
+2017-07-15 14:21:28,206: INFO: BATCH_SIZE=64
+2017-07-15 14:21:28,206: INFO: CHECKPOINT_DIR=runs/1500087757/checkpoints/
+2017-07-15 14:21:28,206: INFO: EVAL_TRAIN=False
+2017-07-15 14:21:28,206: INFO: LOG_DEVICE_PLACEMENT=False
+2017-07-15 14:21:28,206: INFO: NEGATIVE_DATA_FILE=sources/train/negative_text.txt
+2017-07-15 14:21:28,206: INFO: POSITIVE_DATA_FILE=sources/train/hottopic_text.txt
+2017-07-15 14:21:28,206: INFO: 
+2017-07-15 14:21:28,250: INFO: 
+Evaluating...
+
+2017-07-15 14:21:29,105: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:21:31,189: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606290000prediction.txt
+2017-07-15 14:21:31,276: INFO: 
+Evaluating...
+
+2017-07-15 14:21:32,154: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:21:34,182: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606290100prediction.txt
+2017-07-15 14:21:34,220: INFO: 
+Evaluating...
+
+2017-07-15 14:21:35,117: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:21:35,845: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606290200prediction.txt
+2017-07-15 14:21:35,992: INFO: 
+Evaluating...
+
+2017-07-15 14:21:36,896: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:21:37,687: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606290300prediction.txt
+2017-07-15 14:21:37,695: INFO: 
+Evaluating...
+
+2017-07-15 14:21:38,630: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:21:39,507: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606290400prediction.txt
+2017-07-15 14:21:39,512: INFO: 
+Evaluating...
+
+2017-07-15 14:21:40,372: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:21:41,135: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606290500prediction.txt
+2017-07-15 14:21:41,141: INFO: 
+Evaluating...
+
+2017-07-15 14:21:42,002: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:21:42,890: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606290600prediction.txt
+2017-07-15 14:21:42,896: INFO: 
+Evaluating...
+
+2017-07-15 14:21:43,808: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:21:44,611: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606290700prediction.txt
+2017-07-15 14:21:44,617: INFO: 
+Evaluating...
+
+2017-07-15 14:21:45,514: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:21:46,400: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606290800prediction.txt
+2017-07-15 14:21:46,407: INFO: 
+Evaluating...
+
+2017-07-15 14:21:47,314: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:21:48,232: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606290900prediction.txt
+2017-07-15 14:21:48,243: INFO: 
+Evaluating...
+
+2017-07-15 14:21:49,107: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:21:50,199: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606291000prediction.txt
+2017-07-15 14:21:50,215: INFO: 
+Evaluating...
+
+2017-07-15 14:21:51,106: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:21:52,180: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606291100prediction.txt
+2017-07-15 14:21:52,199: INFO: 
+Evaluating...
+
+2017-07-15 14:21:53,063: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:21:54,280: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606291200prediction.txt
+2017-07-15 14:21:54,298: INFO: 
+Evaluating...
+
+2017-07-15 14:21:55,179: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:21:56,320: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606291300prediction.txt
+2017-07-15 14:21:56,337: INFO: 
+Evaluating...
+
+2017-07-15 14:21:57,199: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:21:58,335: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606291400prediction.txt
+2017-07-15 14:21:58,352: INFO: 
+Evaluating...
+
+2017-07-15 14:21:59,334: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:22:00,625: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606291500prediction.txt
+2017-07-15 14:22:00,644: INFO: 
+Evaluating...
+
+2017-07-15 14:22:01,532: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:22:02,850: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606291600prediction.txt
+2017-07-15 14:22:02,873: INFO: 
+Evaluating...
+
+2017-07-15 14:22:03,778: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:22:05,034: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606291700prediction.txt
+2017-07-15 14:22:05,053: INFO: 
+Evaluating...
+
+2017-07-15 14:22:06,006: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:22:07,257: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606291800prediction.txt
+2017-07-15 14:22:07,279: INFO: 
+Evaluating...
+
+2017-07-15 14:22:08,170: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:22:09,369: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606291900prediction.txt
+2017-07-15 14:22:09,387: INFO: 
+Evaluating...
+
+2017-07-15 14:22:10,284: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:22:11,533: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606292000prediction.txt
+2017-07-15 14:22:11,553: INFO: 
+Evaluating...
+
+2017-07-15 14:22:12,712: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:22:14,798: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606292100prediction.txt
+2017-07-15 14:22:14,819: INFO: 
+Evaluating...
+
+2017-07-15 14:22:15,787: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:22:17,061: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606292200prediction.txt
+2017-07-15 14:22:17,082: INFO: 
+Evaluating...
+
+2017-07-15 14:22:17,942: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:22:19,189: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606292300prediction.txt
+2017-07-15 14:22:19,248: INFO: 
+Evaluating...
+
+2017-07-15 14:22:20,105: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:22:22,264: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606300000prediction.txt
+2017-07-15 14:22:22,366: INFO: 
+Evaluating...
+
+2017-07-15 14:22:23,251: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:22:25,264: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606300100prediction.txt
+2017-07-15 14:22:25,460: INFO: 
+Evaluating...
+
+2017-07-15 14:22:26,299: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:22:27,177: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606300200prediction.txt
+2017-07-15 14:22:27,186: INFO: 
+Evaluating...
+
+2017-07-15 14:22:28,062: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:22:28,971: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606300300prediction.txt
+2017-07-15 14:22:28,981: INFO: 
+Evaluating...
+
+2017-07-15 14:22:29,827: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:22:30,735: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606300400prediction.txt
+2017-07-15 14:22:30,745: INFO: 
+Evaluating...
+
+2017-07-15 14:22:31,600: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:22:32,390: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606300500prediction.txt
+2017-07-15 14:22:32,421: INFO: 
+Evaluating...
+
+2017-07-15 14:22:33,259: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:22:34,139: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606300600prediction.txt
+2017-07-15 14:22:34,149: INFO: 
+Evaluating...
+
+2017-07-15 14:22:35,062: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:22:35,934: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606300700prediction.txt
+2017-07-15 14:22:35,946: INFO: 
+Evaluating...
+
+2017-07-15 14:22:36,795: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:22:37,785: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606300800prediction.txt
+2017-07-15 14:22:37,802: INFO: 
+Evaluating...
+
+2017-07-15 14:22:38,706: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:22:39,854: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606300900prediction.txt
+2017-07-15 14:22:39,920: INFO: 
+Evaluating...
+
+2017-07-15 14:22:40,866: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:22:43,282: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606301000prediction.txt
+2017-07-15 14:22:43,322: INFO: 
+Evaluating...
+
+2017-07-15 14:22:44,234: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:22:45,376: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606301100prediction.txt
+2017-07-15 14:22:45,392: INFO: 
+Evaluating...
+
+2017-07-15 14:22:46,245: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:22:47,388: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606301200prediction.txt
+2017-07-15 14:22:47,406: INFO: 
+Evaluating...
+
+2017-07-15 14:22:48,320: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:22:49,455: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606301300prediction.txt
+2017-07-15 14:22:49,492: INFO: 
+Evaluating...
+
+2017-07-15 14:22:50,348: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:22:51,412: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606301400prediction.txt
+2017-07-15 14:22:51,432: INFO: 
+Evaluating...
+
+2017-07-15 14:22:52,357: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:22:53,443: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606301500prediction.txt
+2017-07-15 14:22:53,460: INFO: 
+Evaluating...
+
+2017-07-15 14:22:54,327: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:22:55,356: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606301600prediction.txt
+2017-07-15 14:22:55,379: INFO: 
+Evaluating...
+
+2017-07-15 14:22:56,299: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:22:57,393: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606301700prediction.txt
+2017-07-15 14:22:57,458: INFO: 
+Evaluating...
+
+2017-07-15 14:22:58,321: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:22:59,565: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606301800prediction.txt
+2017-07-15 14:22:59,586: INFO: 
+Evaluating...
+
+2017-07-15 14:23:00,507: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:23:01,772: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606301900prediction.txt
+2017-07-15 14:23:01,791: INFO: 
+Evaluating...
+
+2017-07-15 14:23:02,661: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:23:03,917: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606302000prediction.txt
+2017-07-15 14:23:03,942: INFO: 
+Evaluating...
+
+2017-07-15 14:23:04,865: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:23:06,136: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606302100prediction.txt
+2017-07-15 14:23:06,174: INFO: 
+Evaluating...
+
+2017-07-15 14:23:07,203: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:23:08,438: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606302200prediction.txt
+2017-07-15 14:23:08,469: INFO: 
+Evaluating...
+
+2017-07-15 14:23:09,389: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:23:10,749: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201606302300prediction.txt
+2017-07-15 14:23:10,830: INFO: 
+Evaluating...
+
+2017-07-15 14:23:11,694: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:23:13,847: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607010000prediction.txt
+2017-07-15 14:23:13,958: INFO: 
+Evaluating...
+
+2017-07-15 14:23:14,878: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:23:17,029: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607010100prediction.txt
+2017-07-15 14:23:17,078: INFO: 
+Evaluating...
+
+2017-07-15 14:23:17,938: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:23:19,010: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607010200prediction.txt
+2017-07-15 14:23:19,024: INFO: 
+Evaluating...
+
+2017-07-15 14:23:19,859: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:23:21,077: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607010300prediction.txt
+2017-07-15 14:23:21,091: INFO: 
+Evaluating...
+
+2017-07-15 14:23:21,950: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:23:23,058: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607010400prediction.txt
+2017-07-15 14:23:23,069: INFO: 
+Evaluating...
+
+2017-07-15 14:23:23,998: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:23:25,298: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607010500prediction.txt
+2017-07-15 14:23:25,358: INFO: 
+Evaluating...
+
+2017-07-15 14:23:26,259: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:23:27,203: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607010600prediction.txt
+2017-07-15 14:23:27,212: INFO: 
+Evaluating...
+
+2017-07-15 14:23:28,049: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:23:29,197: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607010700prediction.txt
+2017-07-15 14:23:29,207: INFO: 
+Evaluating...
+
+2017-07-15 14:23:30,082: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:23:31,185: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607010800prediction.txt
+2017-07-15 14:23:31,197: INFO: 
+Evaluating...
+
+2017-07-15 14:23:32,031: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:23:33,246: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607010900prediction.txt
+2017-07-15 14:23:33,282: INFO: 
+Evaluating...
+
+2017-07-15 14:23:34,140: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:23:35,327: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607011000prediction.txt
+2017-07-15 14:23:35,345: INFO: 
+Evaluating...
+
+2017-07-15 14:23:36,179: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:23:37,535: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607011100prediction.txt
+2017-07-15 14:23:37,550: INFO: 
+Evaluating...
+
+2017-07-15 14:23:38,412: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:23:39,766: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607011200prediction.txt
+2017-07-15 14:23:39,785: INFO: 
+Evaluating...
+
+2017-07-15 14:23:40,619: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:23:41,946: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607011300prediction.txt
+2017-07-15 14:23:41,970: INFO: 
+Evaluating...
+
+2017-07-15 14:23:42,830: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:23:44,101: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607011400prediction.txt
+2017-07-15 14:23:44,119: INFO: 
+Evaluating...
+
+2017-07-15 14:23:44,951: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:23:46,273: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607011500prediction.txt
+2017-07-15 14:23:46,292: INFO: 
+Evaluating...
+
+2017-07-15 14:23:47,154: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:23:48,427: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607011600prediction.txt
+2017-07-15 14:23:48,445: INFO: 
+Evaluating...
+
+2017-07-15 14:23:49,281: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:23:50,710: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607011700prediction.txt
+2017-07-15 14:23:50,737: INFO: 
+Evaluating...
+
+2017-07-15 14:23:51,590: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:23:52,923: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607011800prediction.txt
+2017-07-15 14:23:52,942: INFO: 
+Evaluating...
+
+2017-07-15 14:23:53,771: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:23:55,190: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607011900prediction.txt
+2017-07-15 14:23:55,209: INFO: 
+Evaluating...
+
+2017-07-15 14:23:56,077: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:23:57,381: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607012000prediction.txt
+2017-07-15 14:23:57,397: INFO: 
+Evaluating...
+
+2017-07-15 14:23:58,237: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:23:59,643: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607012100prediction.txt
+2017-07-15 14:23:59,663: INFO: 
+Evaluating...
+
+2017-07-15 14:24:00,521: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:24:01,828: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607012200prediction.txt
+2017-07-15 14:24:01,847: INFO: 
+Evaluating...
+
+2017-07-15 14:24:02,679: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:24:04,022: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607012300prediction.txt
+2017-07-15 14:24:04,085: INFO: 
+Evaluating...
+
+2017-07-15 14:24:04,944: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:24:07,128: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607020000prediction.txt
+2017-07-15 14:24:07,217: INFO: 
+Evaluating...
+
+2017-07-15 14:24:08,131: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:24:10,465: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607020100prediction.txt
+2017-07-15 14:24:10,504: INFO: 
+Evaluating...
+
+2017-07-15 14:24:11,407: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:24:12,213: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607020200prediction.txt
+2017-07-15 14:24:12,222: INFO: 
+Evaluating...
+
+2017-07-15 14:24:13,063: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:24:13,944: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607020300prediction.txt
+2017-07-15 14:24:13,954: INFO: 
+Evaluating...
+
+2017-07-15 14:24:14,865: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:24:15,737: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607020400prediction.txt
+2017-07-15 14:24:15,746: INFO: 
+Evaluating...
+
+2017-07-15 14:24:16,592: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:24:17,325: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607020500prediction.txt
+2017-07-15 14:24:17,333: INFO: 
+Evaluating...
+
+2017-07-15 14:24:18,256: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:24:19,067: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607020600prediction.txt
+2017-07-15 14:24:19,076: INFO: 
+Evaluating...
+
+2017-07-15 14:24:19,932: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:24:20,806: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607020700prediction.txt
+2017-07-15 14:24:20,815: INFO: 
+Evaluating...
+
+2017-07-15 14:24:21,731: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:24:22,653: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607020800prediction.txt
+2017-07-15 14:24:22,664: INFO: 
+Evaluating...
+
+2017-07-15 14:24:23,525: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:24:24,597: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607020900prediction.txt
+2017-07-15 14:24:24,627: INFO: 
+Evaluating...
+
+2017-07-15 14:24:25,537: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:24:26,707: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607021000prediction.txt
+2017-07-15 14:24:26,725: INFO: 
+Evaluating...
+
+2017-07-15 14:24:27,585: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:24:28,885: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607021100prediction.txt
+2017-07-15 14:24:28,905: INFO: 
+Evaluating...
+
+2017-07-15 14:24:29,831: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:24:31,025: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607021200prediction.txt
+2017-07-15 14:24:31,044: INFO: 
+Evaluating...
+
+2017-07-15 14:24:31,902: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:24:33,071: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607021300prediction.txt
+2017-07-15 14:24:33,087: INFO: 
+Evaluating...
+
+2017-07-15 14:24:34,009: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:24:35,019: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607021400prediction.txt
+2017-07-15 14:24:35,032: INFO: 
+Evaluating...
+
+2017-07-15 14:24:35,901: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:24:36,862: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607021500prediction.txt
+2017-07-15 14:24:36,873: INFO: 
+Evaluating...
+
+2017-07-15 14:24:37,796: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:24:38,822: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607021600prediction.txt
+2017-07-15 14:24:38,839: INFO: 
+Evaluating...
+
+2017-07-15 14:24:39,706: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:24:40,880: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607021700prediction.txt
+2017-07-15 14:24:40,914: INFO: 
+Evaluating...
+
+2017-07-15 14:24:41,837: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:24:43,071: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607021800prediction.txt
+2017-07-15 14:24:43,093: INFO: 
+Evaluating...
+
+2017-07-15 14:24:43,960: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:24:45,252: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607021900prediction.txt
+2017-07-15 14:24:45,280: INFO: 
+Evaluating...
+
+2017-07-15 14:24:46,202: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:24:47,516: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607022000prediction.txt
+2017-07-15 14:24:47,543: INFO: 
+Evaluating...
+
+2017-07-15 14:24:48,403: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:24:49,724: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607022100prediction.txt
+2017-07-15 14:24:49,747: INFO: 
+Evaluating...
+
+2017-07-15 14:24:50,669: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:24:51,984: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607022200prediction.txt
+2017-07-15 14:24:52,004: INFO: 
+Evaluating...
+
+2017-07-15 14:24:52,866: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:24:54,152: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607022300prediction.txt
+2017-07-15 14:24:54,216: INFO: 
+Evaluating...
+
+2017-07-15 14:24:55,049: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:24:57,259: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607030000prediction.txt
+2017-07-15 14:24:57,359: INFO: 
+Evaluating...
+
+2017-07-15 14:24:58,217: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:25:00,395: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607030100prediction.txt
+2017-07-15 14:25:00,448: INFO: 
+Evaluating...
+
+2017-07-15 14:25:01,284: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:25:02,263: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607030200prediction.txt
+2017-07-15 14:25:02,275: INFO: 
+Evaluating...
+
+2017-07-15 14:25:03,139: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:25:04,130: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607030300prediction.txt
+2017-07-15 14:25:04,143: INFO: 
+Evaluating...
+
+2017-07-15 14:25:04,985: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:25:06,030: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607030400prediction.txt
+2017-07-15 14:25:06,042: INFO: 
+Evaluating...
+
+2017-07-15 14:25:06,905: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:25:07,820: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607030500prediction.txt
+2017-07-15 14:25:07,829: INFO: 
+Evaluating...
+
+2017-07-15 14:25:08,662: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:25:09,818: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607030600prediction.txt
+2017-07-15 14:25:09,825: INFO: 
+Evaluating...
+
+2017-07-15 14:25:10,775: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:25:11,701: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607030700prediction.txt
+2017-07-15 14:25:11,709: INFO: 
+Evaluating...
+
+2017-07-15 14:25:12,541: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:25:13,587: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607030800prediction.txt
+2017-07-15 14:25:13,598: INFO: 
+Evaluating...
+
+2017-07-15 14:25:14,463: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:25:15,472: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607030900prediction.txt
+2017-07-15 14:25:15,504: INFO: 
+Evaluating...
+
+2017-07-15 14:25:16,333: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:25:17,541: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607031000prediction.txt
+2017-07-15 14:25:17,557: INFO: 
+Evaluating...
+
+2017-07-15 14:25:18,466: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:25:19,723: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607031100prediction.txt
+2017-07-15 14:25:19,741: INFO: 
+Evaluating...
+
+2017-07-15 14:25:20,580: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:25:21,967: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607031200prediction.txt
+2017-07-15 14:25:21,984: INFO: 
+Evaluating...
+
+2017-07-15 14:25:22,834: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:25:24,082: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607031300prediction.txt
+2017-07-15 14:25:24,100: INFO: 
+Evaluating...
+
+2017-07-15 14:25:24,937: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:25:26,131: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607031400prediction.txt
+2017-07-15 14:25:26,148: INFO: 
+Evaluating...
+
+2017-07-15 14:25:27,005: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:25:28,071: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607031500prediction.txt
+2017-07-15 14:25:28,085: INFO: 
+Evaluating...
+
+2017-07-15 14:25:28,924: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:25:30,132: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607031600prediction.txt
+2017-07-15 14:25:30,147: INFO: 
+Evaluating...
+
+2017-07-15 14:25:31,001: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:25:32,125: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607031700prediction.txt
+2017-07-15 14:25:32,141: INFO: 
+Evaluating...
+
+2017-07-15 14:25:32,981: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:25:34,194: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607031800prediction.txt
+2017-07-15 14:25:34,210: INFO: 
+Evaluating...
+
+2017-07-15 14:25:35,067: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:25:36,224: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607031900prediction.txt
+2017-07-15 14:25:36,241: INFO: 
+Evaluating...
+
+2017-07-15 14:25:37,082: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:25:38,330: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607032000prediction.txt
+2017-07-15 14:25:38,349: INFO: 
+Evaluating...
+
+2017-07-15 14:25:39,208: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:25:40,366: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607032100prediction.txt
+2017-07-15 14:25:40,387: INFO: 
+Evaluating...
+
+2017-07-15 14:25:41,235: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:25:42,374: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607032200prediction.txt
+2017-07-15 14:25:42,398: INFO: 
+Evaluating...
+
+2017-07-15 14:25:43,308: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:25:44,492: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607032300prediction.txt
+2017-07-15 14:25:44,552: INFO: 
+Evaluating...
+
+2017-07-15 14:25:45,389: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:25:47,501: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607040000prediction.txt
+2017-07-15 14:25:47,584: INFO: 
+Evaluating...
+
+2017-07-15 14:25:48,492: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:25:50,699: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607040100prediction.txt
+2017-07-15 14:25:50,747: INFO: 
+Evaluating...
+
+2017-07-15 14:25:51,596: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:25:52,454: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607040200prediction.txt
+2017-07-15 14:25:52,470: INFO: 
+Evaluating...
+
+2017-07-15 14:25:53,382: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:25:54,312: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607040300prediction.txt
+2017-07-15 14:25:54,328: INFO: 
+Evaluating...
+
+2017-07-15 14:25:55,184: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:25:56,080: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607040400prediction.txt
+2017-07-15 14:25:56,092: INFO: 
+Evaluating...
+
+2017-07-15 14:25:57,011: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:25:57,905: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607040500prediction.txt
+2017-07-15 14:25:57,930: INFO: 
+Evaluating...
+
+2017-07-15 14:25:58,788: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:25:59,673: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607040600prediction.txt
+2017-07-15 14:25:59,686: INFO: 
+Evaluating...
+
+2017-07-15 14:26:00,601: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:26:01,568: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607040700prediction.txt
+2017-07-15 14:26:01,581: INFO: 
+Evaluating...
+
+2017-07-15 14:26:02,442: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:26:03,443: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607040800prediction.txt
+2017-07-15 14:26:03,457: INFO: 
+Evaluating...
+
+2017-07-15 14:26:04,376: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:26:05,483: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607040900prediction.txt
+2017-07-15 14:26:05,505: INFO: 
+Evaluating...
+
+2017-07-15 14:26:06,367: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:26:07,566: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607041000prediction.txt
+2017-07-15 14:26:07,586: INFO: 
+Evaluating...
+
+2017-07-15 14:26:08,503: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:26:09,814: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607041100prediction.txt
+2017-07-15 14:26:09,842: INFO: 
+Evaluating...
+
+2017-07-15 14:26:10,742: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:26:12,388: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607041200prediction.txt
+2017-07-15 14:26:12,421: INFO: 
+Evaluating...
+
+2017-07-15 14:26:13,347: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:26:14,661: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607041300prediction.txt
+2017-07-15 14:26:14,685: INFO: 
+Evaluating...
+
+2017-07-15 14:26:15,551: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:26:16,898: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607041400prediction.txt
+2017-07-15 14:26:16,924: INFO: 
+Evaluating...
+
+2017-07-15 14:26:17,845: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:26:19,305: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607041500prediction.txt
+2017-07-15 14:26:19,326: INFO: 
+Evaluating...
+
+2017-07-15 14:26:20,211: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:26:21,605: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607041600prediction.txt
+2017-07-15 14:26:21,629: INFO: 
+Evaluating...
+
+2017-07-15 14:26:22,549: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:26:23,752: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607041700prediction.txt
+2017-07-15 14:26:23,796: INFO: 
+Evaluating...
+
+2017-07-15 14:26:24,661: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:26:25,969: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607041800prediction.txt
+2017-07-15 14:26:25,991: INFO: 
+Evaluating...
+
+2017-07-15 14:26:26,920: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:26:28,207: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607041900prediction.txt
+2017-07-15 14:26:28,229: INFO: 
+Evaluating...
+
+2017-07-15 14:26:29,096: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:26:30,331: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607042000prediction.txt
+2017-07-15 14:26:30,351: INFO: 
+Evaluating...
+
+2017-07-15 14:26:31,180: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:26:32,453: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607042100prediction.txt
+2017-07-15 14:26:32,473: INFO: 
+Evaluating...
+
+2017-07-15 14:26:33,337: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:26:34,593: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607042200prediction.txt
+2017-07-15 14:26:34,611: INFO: 
+Evaluating...
+
+2017-07-15 14:26:35,437: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:26:36,835: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607042300prediction.txt
+2017-07-15 14:26:36,906: INFO: 
+Evaluating...
+
+2017-07-15 14:26:37,765: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:26:40,079: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607050000prediction.txt
+2017-07-15 14:26:40,183: INFO: 
+Evaluating...
+
+2017-07-15 14:26:41,012: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:26:43,377: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607050100prediction.txt
+2017-07-15 14:26:43,425: INFO: 
+Evaluating...
+
+2017-07-15 14:26:44,285: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:26:45,202: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607050200prediction.txt
+2017-07-15 14:26:45,211: INFO: 
+Evaluating...
+
+2017-07-15 14:26:46,050: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:26:47,191: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607050300prediction.txt
+2017-07-15 14:26:47,199: INFO: 
+Evaluating...
+
+2017-07-15 14:26:48,056: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:26:49,039: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607050400prediction.txt
+2017-07-15 14:26:49,048: INFO: 
+Evaluating...
+
+2017-07-15 14:26:49,883: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:26:50,822: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607050500prediction.txt
+2017-07-15 14:26:50,831: INFO: 
+Evaluating...
+
+2017-07-15 14:26:51,703: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:26:52,577: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607050600prediction.txt
+2017-07-15 14:26:52,586: INFO: 
+Evaluating...
+
+2017-07-15 14:26:53,421: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:26:54,439: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607050700prediction.txt
+2017-07-15 14:26:54,486: INFO: 
+Evaluating...
+
+2017-07-15 14:26:55,343: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:26:56,429: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607050800prediction.txt
+2017-07-15 14:26:56,444: INFO: 
+Evaluating...
+
+2017-07-15 14:26:57,278: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:26:58,582: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607050900prediction.txt
+2017-07-15 14:26:58,607: INFO: 
+Evaluating...
+
+2017-07-15 14:26:59,469: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:27:00,858: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607051000prediction.txt
+2017-07-15 14:27:00,877: INFO: 
+Evaluating...
+
+2017-07-15 14:27:01,717: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:27:03,267: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607051100prediction.txt
+2017-07-15 14:27:03,288: INFO: 
+Evaluating...
+
+2017-07-15 14:27:04,145: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:27:05,572: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607051200prediction.txt
+2017-07-15 14:27:05,591: INFO: 
+Evaluating...
+
+2017-07-15 14:27:06,423: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:27:07,843: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607051300prediction.txt
+2017-07-15 14:27:07,863: INFO: 
+Evaluating...
+
+2017-07-15 14:27:08,724: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:27:09,986: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607051400prediction.txt
+2017-07-15 14:27:10,006: INFO: 
+Evaluating...
+
+2017-07-15 14:27:10,841: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:27:12,205: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607051500prediction.txt
+2017-07-15 14:27:12,224: INFO: 
+Evaluating...
+
+2017-07-15 14:27:13,154: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:27:14,394: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607051600prediction.txt
+2017-07-15 14:27:14,421: INFO: 
+Evaluating...
+
+2017-07-15 14:27:15,254: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:27:16,506: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607051700prediction.txt
+2017-07-15 14:27:16,532: INFO: 
+Evaluating...
+
+2017-07-15 14:27:17,395: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:27:18,595: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607051800prediction.txt
+2017-07-15 14:27:18,620: INFO: 
+Evaluating...
+
+2017-07-15 14:27:19,463: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:27:20,614: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607051900prediction.txt
+2017-07-15 14:27:20,631: INFO: 
+Evaluating...
+
+2017-07-15 14:27:21,532: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:27:22,611: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607052000prediction.txt
+2017-07-15 14:27:22,633: INFO: 
+Evaluating...
+
+2017-07-15 14:27:23,471: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:27:24,554: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607052100prediction.txt
+2017-07-15 14:27:24,572: INFO: 
+Evaluating...
+
+2017-07-15 14:27:25,477: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:27:26,528: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607052200prediction.txt
+2017-07-15 14:27:26,543: INFO: 
+Evaluating...
+
+2017-07-15 14:27:27,391: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:27:28,478: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607052300prediction.txt
+2017-07-15 14:27:28,535: INFO: 
+Evaluating...
+
+2017-07-15 14:27:29,447: INFO: Restoring parameters from E:\DLTopicWorkspace\CnnTopic\runs\1500087757\checkpoints\model-2800
+2017-07-15 14:27:31,737: INFO: Saving evaluation to runs/1500087757/checkpoints/../predict/201607060000prediction.txt

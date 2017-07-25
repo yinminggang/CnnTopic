@@ -1,0 +1,6 @@
+model_checkpoint_path: "E:\\DLTopicWorkspace\\CnnTopic\\runs\\1500211443\\checkpoints\\model-2800"
+all_model_checkpoint_paths: "E:\\DLTopicWorkspace\\CnnTopic\\runs\\1500211443\\checkpoints\\model-2400"
+all_model_checkpoint_paths: "E:\\DLTopicWorkspace\\CnnTopic\\runs\\1500211443\\checkpoints\\model-2500"
+all_model_checkpoint_paths: "E:\\DLTopicWorkspace\\CnnTopic\\runs\\1500211443\\checkpoints\\model-2600"
+all_model_checkpoint_paths: "E:\\DLTopicWorkspace\\CnnTopic\\runs\\1500211443\\checkpoints\\model-2700"
+all_model_checkpoint_paths: "E:\\DLTopicWorkspace\\CnnTopic\\runs\\1500211443\\checkpoints\\model-2800"
