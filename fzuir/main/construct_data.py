@@ -332,7 +332,7 @@ def newestConstructTestTextAndSplistedWord(conn):
     all_clusterid_write.close()
 
 def constructHotTextAndSplitedWord(conn):
-    hottopic_read = open("sources/dl_hottopic.txt", mode='r', encoding='utf-8')
+    hottopic_read = open("sources/all_hottopic.txt", mode='r', encoding='utf-8')
     text_write = open("sources/train/hottopic_text.txt", mode='w+', encoding='utf-8')
     splitedword_write = open("sources/train/hottopic_splited.txt", mode='w+', encoding='utf-8')
     clusterToTopicDict = {}
@@ -424,7 +424,7 @@ def newConstructHotTextAndSplitedWord(conn):
     :param conn: 
     :return: 
     """
-    hottopic_read = open("sources/dl_hottopic.txt", mode='r', encoding='utf-8')
+    hottopic_read = open("sources/all_hottopic.txt", mode='r', encoding='utf-8')
     text_write = open("sources/train/hottopic_text.txt", mode='w+', encoding='utf-8')
     splitedword_write = open("sources/train/hottopic_splited.txt", mode='w+', encoding='utf-8')
     feature_write = open("sources/train/hottopic_feature.txt", mode='w+', encoding='utf-8')
