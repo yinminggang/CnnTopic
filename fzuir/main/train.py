@@ -1,10 +1,10 @@
-#! /usr/bin/env python
 # -*- coding:utf-8 -*-
+
 import os
 import time
 import datetime
 import sys
-# sys.path.append("/home/fzuir/ymg/CnnTopic/fzuir/util")
+sys.path.append("/home/fzuir/ymg/CnnTopic/fzuir/util")
 sys.path.append("E:/DLTopicWorkspace/CnnTopic/fzuir/util")
 import deal_traindata
 from cnn import TextCNN
@@ -19,7 +19,7 @@ import logging
 # Data loading params
 tf.flags.DEFINE_float("dev_sample_percentage", .2, "Percentage of the training data to use for validation")
 tf.flags.DEFINE_string("positive_data_file", "sources/train/hottopic_text.txt", "Data source for the positive data.")
-tf.flags.DEFINE_string("negative_data_file", "sources/train/negative_text.txt", "Data source for the negative data.")
+tf.flags.DEFINE_string("negative_data_file", "sources/train/sort_negative_text.txt", "Data source for the negative data.")
 
 # Model Hyperparameters
 tf.flags.DEFINE_integer("embedding_dim", 128, "Dimensionality of character embedding (default: 128)")
@@ -92,11 +92,13 @@ with tf.Graph().as_default():
             num_filters=FLAGS.num_filters,
             l2_reg_lambda=FLAGS.l2_reg_lambda)
 
-        # 定义一个变量，可以保存在网络中的变量
-        features = tf.Variable(tf.random_normal(shape=[len(x_text), max_document_length]), name="features", trainable=True)
-        features = TextCNN.getFeature(cnn)
-        logging.error(type(features))
-        logging.error(features)
+        # # 定义一个变量，可以保存在网络中的变量
+        # features = tf.Variable(
+        #     tf.random_normal(shape=[len(x_text), max_document_length]), name="features", trainable=True)
+        # features = TextCNN.getFeature(cnn)
+        # logging.error(type(features))
+        # logging.error(features)
+
         # Define Training procedure
         global_step = tf.Variable(0, name="global_step", trainable=False)
         optimizer = tf.train.AdamOptimizer(1e-3)

@@ -147,7 +147,7 @@ def newConstructTestTextAndSplitedWord(conn):
                 threshold = 7700
                 if real_file_name.find("07010000") != -1 or real_file_name.find("07010100") != -1:
                     threshold = 707700
-            xml_path = "initTopics/" + str(real_file_name) + ".xml"
+            xml_path = "/home/fzuir/ymg/initTopics/" + str(real_file_name) + ".xml"
             logging.info(xml_path)
             cluster_write = open("sources/test/" + real_file_name + "_clusterid.txt", mode='w+', encoding='utf-8')
             text_write = open("sources/test/" + real_file_name + "_text.txt", mode='w+', encoding='utf-8')
@@ -167,8 +167,8 @@ def newConstructTestTextAndSplitedWord(conn):
                     no_doc = 0
                     title = deal_weibo.removeExpression(title=title, expression_list=expression_list)
                     title = deal_weibo.dealWeiboContent(title=title)
-                    text_write.write(title + "。")
-                    all_text_write.write(title + "。")
+                    text_write.write(title + "。。。")
+                    all_text_write.write(title + "。。。")
                     title = deal_weibo.removePunctuation(title=title)
                     seg_list = pseg.cut(title)  # seg_list是生成器generator类型
                     # 去掉过滤词
@@ -254,12 +254,12 @@ def newestConstructTestTextAndSplistedWord(conn):
                 if real_file_name.find("07010000") != -1 or real_file_name.find("07010100") != -1:
                     threshold = 709700
 
-            xml_path = "initTopics/" + str(real_file_name) + ".xml"
+            xml_path = "/home/fzuir/ymg/initTopics/" + str(real_file_name) + ".xml"
             logging.info(xml_path)
             xml = ET.parse(xml_path)
             xml_topics = xml.findall("topic")
-            feature_read = open("predict_feature/" + str(real_file_name) + "trainnew.txt", mode='r', encoding='utf-8')
-            id_read = open("predict_feature/" + str(real_file_name) + ".txt", mode='r', encoding='utf-8')
+            feature_read = open("/home/fzuir/ymg/predict_feature/" + str(real_file_name) + "trainnew.txt", mode='r', encoding='utf-8')
+            id_read = open("/home/fzuir/ymg/predict_feature/" + str(real_file_name) + ".txt", mode='r', encoding='utf-8')
             cluster_write = open("sources/new_test/" + real_file_name + "_clusterid.txt", mode='w+', encoding='utf-8')
             text_write = open("sources/new_test/" + real_file_name + "_text.txt", mode='w+', encoding='utf-8')
             words_write = open("sources/new_test/" + real_file_name + "_splited.txt", mode='w+', encoding='utf-8')
@@ -289,16 +289,16 @@ def newestConstructTestTextAndSplistedWord(conn):
                         no_doc = 0
                         title = deal_weibo.removeExpression(title=title, expression_list=expression_list)
                         title = deal_weibo.dealWeiboContent(title=title)
-                        text_write.write(title + "。")
-                        all_text_write.write(title + "。")
+                        text_write.write(title + "。。。")
+                        all_text_write.write(title + "。。。")
                         title = deal_weibo.removePunctuation(title=title)
                         seg_list = pseg.cut(title)  # seg_list是生成器generator类型
                         # 去掉过滤词
                         words = ""
                         for seg in seg_list:
-                            if seg.flag not in word_attribute:
-                                continue
                             w = seg.word.strip()
+                            if seg.flag not in word_attribute or w in filter_words:
+                                continue
                             words += " " + w
                         words = words.strip()
                         words_write.write(words + " ")
@@ -320,7 +320,6 @@ def newestConstructTestTextAndSplistedWord(conn):
                 if no_cluster == 1:
                     logging.error("xml中没有话题，id为" + cluster_id)
                 id_line = id_read.readline()
-
             text_write.close()
             words_write.close()
             cluster_write.close()
@@ -424,7 +423,7 @@ def newConstructHotTextAndSplitedWord(conn):
     :param conn: 
     :return: 
     """
-    hottopic_read = open("sources/all_hottopic.txt", mode='r', encoding='utf-8')
+    hottopic_read = open("sources/hottopic.txt", mode='r', encoding='utf-8')
     text_write = open("sources/train/hottopic_text.txt", mode='w+', encoding='utf-8')
     splitedword_write = open("sources/train/hottopic_splited.txt", mode='w+', encoding='utf-8')
     feature_write = open("sources/train/hottopic_feature.txt", mode='w+', encoding='utf-8')
@@ -473,7 +472,7 @@ def newConstructHotTextAndSplitedWord(conn):
         # 求下一个小时的时间戳
         next_timestamp = timestamp + 3600
         timeArray = time.localtime(next_timestamp)
-        real_xml_path = "initTopics/" + time.strftime("%Y%m%d%H", timeArray) + "00.xml"
+        real_xml_path = "/home/fzuir/ymg/initTopics/" + time.strftime("%Y%m%d%H", timeArray) + "00.xml"
         logging.info(real_xml_path)
         # 开始解析xml文件
         xml = ET.parse(real_xml_path)
@@ -490,21 +489,21 @@ def newConstructHotTextAndSplitedWord(conn):
                 title = doc.text
                 doc_time = str(doc.get("day"))[0:19]
                 doc_timestamp = time.mktime(time.strptime(doc_time, '%Y-%m-%d %H:%M:%S'))
-                # 如果微博时间不在当前3个小时的时间段内，则不予加入计算
-                if doc_timestamp < timestamp - 7200 or doc_timestamp > next_timestamp:
+                # 如果微博时间不在当前1个小时的时间段内，则不予加入计算
+                if doc_timestamp < timestamp or doc_timestamp > next_timestamp:
                     continue
                 no_doc = 0
                 title = deal_weibo.removeExpression(title=title, expression_list=expression_list)
                 title = deal_weibo.dealWeiboContent(title=title)
-                text_write.write(title + "<sssss>")
+                text_write.write(title + "。。。")
                 title = deal_weibo.removePunctuation(title=title)
                 seg_list = pseg.cut(title)  # seg_list是生成器generator类型
                 # 去掉过滤词
                 words = ""
                 for seg in seg_list:
-                    if seg.flag not in word_attribute:
-                        continue
                     w = seg.word.strip()
+                    if seg.flag not in word_attribute or w in filter_words:
+                        continue
                     words += " " + w
                 words = words.strip()
                 splitedword_write.write(words + " ")
@@ -597,11 +596,10 @@ def newConstructNegativeTextAndSplitedWord(conn):
     :param conn: 
     :return: 
     """
-    negative_read = open("sources/all_negative.txt", mode='r', encoding='utf-8')
-    splitedword_write = open("sources/train/all_negative_splited.txt", mode='w+', encoding='utf-8')
-    text_write = open("sources/train/all_negative_text.txt", mode='w+', encoding='utf-8')
-    feature_write = open("sources/train/all_negative_feature.txt", mode='w+', encoding='utf-8')
-    line = negative_read.readline()
+    negative_read = open("sources/sort_negative.txt", mode='r', encoding='utf-8')
+    splitedword_write = open("sources/train/sort_negative_splited.txt", mode='w+', encoding='utf-8')
+    text_write = open("sources/train/sort_negative_text.txt", mode='w+', encoding='utf-8')
+    feature_write = open("sources/train/sort_negative_feature.txt", mode='w+', encoding='utf-8')
 
     # 加载过滤词
     filter_read = open("sources/filter_words.dic", mode='r', encoding='utf-8')
@@ -627,6 +625,7 @@ def newConstructNegativeTextAndSplitedWord(conn):
     # 从数据库中读表情符号
     expression_list = deal_weibo.readExpression(conn)
 
+    line = negative_read.readline()
     while line:
         line_split = line.split("\t")
         topic_id = line_split[1]
@@ -636,7 +635,7 @@ def newConstructNegativeTextAndSplitedWord(conn):
             threshold = 7700
             if file_name.find("07010000") != -1 or file_name.find("07010100") != -1:
                 threshold = 707700
-        xml_path = "initTopics/" + file_name + ".xml"
+        xml_path = "/home/fzuir/ymg/initTopics/" + file_name + ".xml"
         logging.info(xml_path)
         # 开始解析xml文件
         xml = ET.parse(xml_path)
@@ -659,15 +658,15 @@ def newConstructNegativeTextAndSplitedWord(conn):
                 no_doc = 0
                 title = deal_weibo.removeExpression(title=title, expression_list=expression_list)
                 title = deal_weibo.dealWeiboContent(title=title)
-                text_write.write(title+"<sssss>")
+                text_write.write(title + "。。。")
                 title = deal_weibo.removePunctuation(title=title)
                 seg_list = pseg.cut(title)  # seg_list是生成器generator类型
                 # 去掉过滤词
                 words = ""
                 for seg in seg_list:
-                    if seg.flag not in word_attribute:
-                        continue
                     w = seg.word.strip()
+                    if seg.flag not in word_attribute or w in filter_words:
+                        continue
                     words += " " + w
                 words = words.strip()
                 splitedword_write.write(words + " ")
@@ -687,13 +686,13 @@ def newConstructNegativeTextAndSplitedWord(conn):
 if __name__ == '__main__':
     conn = database_util.ConnMysql("59.77.233.198", 3306, "root", "mysql_fzu_118", "HotTopic")
     conn.connectMysql()
-    logging.basicConfig(filename="logs/new_construct_data.log", format='%(asctime)s: %(levelname)s: %(message)s')
+    logging.basicConfig(filename="logs/TrainTest.log", format='%(asctime)s: %(levelname)s: %(message)s')
     logging.root.setLevel(level=logging.INFO)
 
-    # newConstructHotTextAndSplitedWord(conn)
+    newConstructHotTextAndSplitedWord(conn)
     newConstructNegativeTextAndSplitedWord(conn)
     # newConstructTestTextAndSplitedWord(conn)
-    # newestConstructTestTextAndSplistedWord(conn)
+    newestConstructTestTextAndSplistedWord(conn)
 
     conn.closeMysql()
 
